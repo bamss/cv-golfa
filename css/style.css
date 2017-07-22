@@ -55,6 +55,9 @@ a{
 	color: white;
 }
 .gif{
-	height: 300px;
+	height: 270px;
 	margin: 74px;
 }
+/*.cv-pdf:hover{
+	content: 'telecharger mon cv en pdf';
+}*/
