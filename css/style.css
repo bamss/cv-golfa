@@ -20,8 +20,9 @@ body{
 	background-color: darkslategrey;
 }
 .maphoto{
-	border-radius: 50%;
+	border-radius: 50% ;
 	width: 14%;
+	
 }
 ul{
 	list-style: none;
