@@ -1,7 +1,12 @@
 body{
 	text-align: center;
-	font-family: 'Bungee Inline', cursive;
-  	/*margin: 0 250px;*/
+	color: #2B2D2D;
+	font-family: 'Baloo Bhaijaan', cursive;
+	font-size: 20px;
+	}
+.F-font{
+	
+	font-family: 'Bungee Shade', cursive;
 }
 .compet{
 	display: flex;
@@ -10,6 +15,8 @@ body{
 	/*padding: 24px;*/
 	background-color: gainsboro;
 	margin: 44px;
+	font-family: 'Baloo Bhaijaan', cursive;
+	
 
 }
 .integrateur{
@@ -26,6 +33,10 @@ body{
 }
 ul{
 	list-style: none;
+	margin-bottom: 60px;
+}
+li{
+	margin-bottom: 14px;
 }
 i{
 	padding: 24px;
