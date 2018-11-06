@@ -20,11 +20,11 @@ body{
 
 }
 .integrateur{
-	border: 1px dashed;
+
 	margin: 0 44px;
 	padding: 5px;
 	color: white;
-	background-color: darkslategrey;
+	background-color: #48646E;
 }
 .maphoto{
 	border-radius: 50% ;
@@ -41,9 +41,12 @@ li{
 i{
 	padding: 24px;
 }
+#em{
+	color: #0B7CA5;
+}
 a{
 	text-decoration: none;
-	color: tomato;
+	color: burlywood;
 	/*padding: 24px;*/
 }
 .centres img{
