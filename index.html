@@ -23,15 +23,15 @@
 			<h2>Compétences</h2>
 			<ul> 
 				<span>HTML/CSS 💪🏾</span>
-				<li><progress value="8" max="9"></li>
+				<li><progress value="80" max="100">80%</progress></li>
 				<span>WORDPRESS 😎</span>
-				<li><progress value="6" max="9"></li>
+				<li><progress value="70" max="100"></li>
 				<span>JAVASCRIPT 👍🏾</span>
-				<li><progress value="4.7" max="9"></li>
+				<li><progress value="50" max="100"></li>
 				<span>BOOTSTRAP/FLEXBOX 👨🏾‍🎨</span>
-				<li><progress value="6" max="9"></li>
+				<li><progress value="70" max="100"></li>
 				<span>GIT/GITHUB 😬</span>
-				<li><progress value="3.8" max="9"></li>
+				<li><progress value="40" max="100"></li>
 			</ul>
 		</div>
 		<div>
@@ -39,7 +39,8 @@
 		</div>
 	</section>
 	<!--la fin de la section compétences-->
-	<section class="formation">
+	<div class="js-show-on-scroll">
+	<section iclass="formation">
 		
 		<h2>
 			FORMATION
@@ -59,11 +60,11 @@
 			<li>Mediateur numérique à l'association Florimont</li>
 			<li> coursier à vélo ubereats 🚴🏾‍</li>
 		</ul>
-		
 	</section>
+	</div>
 	<!--la fin de la section experience-->
 	<section class="centres">
-
+		<div class="js-show-on-scroll">
 		<h2>MES PASSIONS</h2>
 		<div class="interet1">
 			<figure>
@@ -93,6 +94,7 @@
 				<figcaption>Bike</figcaption>
 			</figure>
 		</div>
+		</div>
 	</section>
 	<!--la fin de la centres d'intérêts-->
 	<section class="integrateur">
@@ -107,5 +109,10 @@
 
 		
 	</section>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+							<script>
+ window.sr = ScrollReveal({scale: 1, duration: 3000, delay:500});
+ sr.reveal(".js-show-on-scroll");
+</script>
 </body>
 </html>
